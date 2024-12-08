@@ -1,0 +1,12 @@
+{
+  "name": "portfolio_hw",
+  "version": "1.0.0",
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",   
+    "dev:frontend": "npm --prefix frontend start",  
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"" 
+  },
+  "devDependencies": {
+    "concurrently": "^7.5.0"
+  }
+}
